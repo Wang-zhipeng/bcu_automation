@@ -1,0 +1,10 @@
+# Example for MTC site:
+# "1":
+#    [["EYE_Camera", 0], [ "MagicKey", [0xC30A, 0x000A], "STM32", ["COM7", 115200, 8, "N", 1]]]
+# Example for DTC site:
+"1": # BCU
+  [["Null", "Y"], ["MagicKey", [0xC216, 0x0102], "Null", []]]
+#  [["Video_Capture_Card", "Y"], ["MagicKey", [0xC216, 0x0102], "Null", []]]
+
+# HAND_MagicKey : device manager  -> human interface devices -> usb input device -> hardware ids -> vid,pid
+# HAND_STM32 : device manager  ->ports -> ch340 -> port settings

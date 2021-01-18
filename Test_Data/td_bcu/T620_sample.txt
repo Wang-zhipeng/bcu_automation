@@ -1,0 +1,286 @@
+BIOSConfig 1.0
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.23.1
+;     Date="2017/10/20" Time="01:25:57" UTC="-7"
+;     Found 87 settings
+Language
+	*English
+	Francais
+	Simplified Chinese
+	Espanol
+	Deutsch
+	Italiano
+	Dansk
+	Suomi
+	Nederlands
+	Norsk
+	Portugues
+	Svenska
+	Japanese
+Manufacturer (ReadOnly)
+	Hewlett-Packard
+System Board ID (ReadOnly)
+	213D
+Product Configuration ID (ReadOnly)
+
+System Board CT Number (ReadOnly)
+BIOS Revision (ReadOnly)
+	L40 v02.16
+BIOS Date (ReadOnly)
+	10/17/2017
+Processor Type (ReadOnly)
+	AMD GX-420CA SOC with Radeon(tm) HD Graphics
+Processor Speed (ReadOnly)
+	2000 MHz
+Integrated MAC (ReadOnly)
+	008CFAD29E60
+Memory Size (ReadOnly)
+	4096 MB DDR3 / 1600 MT/s / Single Channel
+Set Time (hh:mm)
+	01:25
+Set Day (mm/dd/yyyy)
+	10/20/2017
+Apply Defaults and Exit
+	Disable
+	*Enable
+Sata Emulation
+	*IDE
+	AHCI
+USB Storage Boot
+	Before SATA
+	*Disable
+	After SATA
+UEFI Boot Sources
+	Windows Boot Manager
+	USB Floppy/CD
+	USB Hard Drive
+	UEFI: IPv4 Realtek PCIe GBE Family Controller
+	UEFI: IPv6 Realtek PCIe GBE Family Controller
+Legacy Boot Sources
+System Audio
+	*Device available
+	Device hidden
+Network Controller
+	*Device available
+	Device hidden
+SATA0
+	Device hidden
+	*Device available
+SATA1
+	Device hidden
+	*Device available
+Pcie Device in Mini-PCIE Slot
+	Disable
+	*Enable
+Front USB Ports
+	Disable
+	*Enable
+USB Port Configuration
+	Force 2.0
+	*Auto
+Rear USB Ports
+	Disable
+	*Enable
+Internal USB Ports
+	Disable
+	*Enable
+Usb Port 0
+	Disable
+	*Enable
+Usb Port 1
+	Disable
+	*Enable
+Usb Port 2
+	Disable
+	*Enable
+Usb Port 3
+	Disable
+	*Enable
+Usb Port 4
+	Disable
+	*Enable
+Usb Port 7
+	Disable
+	*Enable
+Usb Port 8
+	Disable
+	*Enable
+Usb Port 9
+	Disable
+	*Enable
+PCI Express x4 Slot #
+	Disable
+	*Enable
+Mini Card Slot
+	Disable
+	*Enable
+Network Boot
+	*Enable
+	Disable
+Product Name
+	hp t620
+Serial Number
+	ejdje12345
+UUID
+	E2CFF670-AA5A-1BAF-078B-F8B62553D711
+SKU Number
+	sku1
+Family Name (ReadOnly)
+	103C_53302C G=D
+Asset Tracking Number
+	aa
+Feature Byte
+	476b6y757M7Q7W7Ya6acapaqbAbYdTdUdqe6emg4.HQ
+Build ID
+	14WWFTDJ6AH#SABA#DABA
+BIOS Update
+	*Disable
+	Auto
+	Force
+Data Execution Prevention
+	Disable
+	*Enable
+BIOS Image File Name
+Virtualization Technology
+	*Disable
+	Enable
+Trusted Computing
+	Disable
+	*Enable
+Legacy Support
+	Enable
+	*Disable
+Secure Boot
+	*Enable
+	Disable
+Clear Secure Boot Keys
+	*Don't Clear
+	Clear
+Key Ownership
+	Custom Keys
+	*HP Keys
+Fast Boot
+	*Enable
+	Disable
+Smart Cover
+	*Disable
+	Notify User
+SATA Power Management
+	Disable
+	*Enable
+S5 Maximum Power Savings
+	*Disable
+	Enable
+S4/S5 Wake on LAN
+	*Disable
+	Enable
+CPU Fan Check
+	Disable
+	*Enable
+POST Messages
+	*Disable
+	Enable
+After Power Loss
+	*Off
+	On
+	Previous State
+POST Delay (in seconds)
+	None
+	5
+	10
+	15
+	*20
+	60
+Remote Wakeup Boot Source
+	*Local Hard Drive
+	Remote Server
+Password Prompt On F9&F12
+	None
+	*Setup Password
+Power on Sunday
+	*Disable
+	Enable
+Power on Monday
+	*Disable
+	Enable
+Power on Tuesday
+	*Disable
+	Enable
+Power on Wednesday
+	*Disable
+	Enable
+Power on Thursday
+	*Disable
+	Enable
+Power on Friday
+	*Disable
+	Enable
+Power on Saturday
+	*Disable
+	Enable
+Power on Time (hh:mm)
+	00:00
+Serial Port A
+	Disable
+	*IO=3F8h; IRQ=4;
+	IO=3F8h; IRQ=3;
+	IO=2F8h; IRQ=4;
+	IO=2F8h; IRQ=3;
+	IO=3E8h; IRQ=4;
+	IO=3E8h; IRQ=3;
+	IO=2E8h; IRQ=4;
+	IO=2E8h; IRQ=3;
+Serial Port B
+	Disable
+	IO=3F8h; IRQ=4;
+	IO=3F8h; IRQ=3;
+	IO=2F8h; IRQ=4;
+	*IO=2F8h; IRQ=3;
+	IO=3E8h; IRQ=4;
+	IO=3E8h; IRQ=3;
+	IO=2E8h; IRQ=4;
+	IO=2E8h; IRQ=3;
+Parallel Port
+	Disable
+	IO=378h; IRQ=7; DMA=1;
+	*IO=378h; IRQ=7; DMA=3;
+	IO=278h; IRQ=7; DMA=1;
+	IO=278h; IRQ=7; DMA=3;
+	IO=3BCh; IRQ=7; DMA=1;
+	IO=3BCh; IRQ=7; DMA=3;
+PCI SERR# Generation
+	Disable
+	*Enable
+PCI VGA Palette Snooping
+	*Disable
+	Enable
+Printer Mode
+	Output-Only
+	Bi-Directional
+	*ECP and EPP Mode
+Num Lock State at Power-On
+	On
+	*Off
+Integrated Graphics
+	*Auto
+	Force
+	Disable
+UMA Frame Buffer Size
+	32M
+	64M
+	128M
+	256M
+	*512M
+	1G
+Multi-Processor
+	Disable
+	*Enable
+Integrated Audio
+	Disable
+	*Enable
+Internal Speaker
+	Disable
+	*Enable
+NIC PXE Option ROM Download
+	*Enable
+	Disable

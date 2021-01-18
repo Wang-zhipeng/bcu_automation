@@ -1,0 +1,3 @@
+config: config1
+platform: t530
+os: wes10_rs1

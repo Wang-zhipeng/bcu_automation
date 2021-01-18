@@ -1,0 +1,7 @@
+main_config:
+  eye: []
+  magic_key: [0xC30A, 0x000A]
+  stm32: []
+
+# HAND_MagicKey : device manager  -> human interface devices -> usb input device -> hardware ids -> vid,pid
+# HAND_STM32 : device manager  ->ports -> ch340 -> port settings

@@ -1,0 +1,6 @@
+# network
+- verify_hp_thinupdate_can_be_installed_in_system__Verify_hp_thinupdate_can_be_installed_in_system: NORUN
+- Capture_Flow_Demo__Test_Capture_Flow: NORUN
+- verify_image_deploy_for_WES__verify_image_deploy_for_WES: NORUN
+- verify_Extract_the_HP_thin_client_image_file_from_the_selected_USB_drive: NORUN
+- verif_Restore_USB_drive_layout_function_works_well: NORUN

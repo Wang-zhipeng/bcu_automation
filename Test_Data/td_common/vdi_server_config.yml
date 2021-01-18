@@ -1,0 +1,69 @@
+cert: 'ROOTCA.pem'
+domain: 'sh'
+user:
+  - 'autotest1'
+  - 'autotest2'
+  - 'autotest3'
+  - 'autotest4'
+  - 'autotest5'
+  - 'autotest6'
+  - 'autotest7'
+  - 'autotest8'
+  - 'autotest9'
+password: 'Shanghai2010'
+citrix:
+  server: 'sfnsvr.sh.dto'
+  url: 'https://sfnsvr.sh.dto/citrix/newstore/discovery'
+  win10:
+    name: 'Autotest Win10'
+    ip_list:
+      - 'Autotest-C01.sh.dto'
+      - 'Autotest-C02.sh.dto'
+      - 'Autotest-C03.sh.dto'
+      - 'Autotest-C04.sh.dto'
+  server2016:
+    name: 'AutoTest W2016'
+    ip_list:
+      - 'AutotestW16-C01.sh.dto'
+view:
+  server: 'vnsvr.sh.dto'
+  rdp win10:
+    name: 'R-Automation'
+    ip_list:
+      - 'R-Automation-1.sh.dto'
+      - 'R-Automation-2.sh.dto'
+      - 'R-Automation-3.sh.dto'
+  blast win10:
+    name: 'AutoTestW10-B'
+    ip_list:
+      - 'AutoTestW10-B1.sh.dto'
+      - 'AutoTestW10-B2.sh.dto'
+      - 'AutoTestW10-B3.sh.dto'
+      - 'AutoTestW10-B4.sh.dto'
+  pcoip win10:
+    name: 'AutoTestW10-P'
+    ip_list:
+      - 'AutoTestW10-P1.sh.dto'
+      - 'AutoTestW10-P2.sh.dto'
+      - 'AutoTestW10-P3.sh.dto'
+      - 'AutoTestW10-P4.sh.dto'
+  blast server2016:
+    name: 'AutoTestW2016-B'
+    ip_list:
+      - 'Autotestw16-B1.sh.dto'
+  pcoip server2016:
+    name: 'AutoTestW2016-P'
+    ip_list:
+      - 'Autotestw16-P1.sh.dto'
+rdp:
+  rfx win10:
+    - 'autowin10-2.sh.dto'
+  rdp win10:
+    - 'autowin10-1.sh.dto'
+    - 'autowin10-3.sh.dto'
+    - 'AutotestRDP-C01.sh.dto'
+    - 'AutotestRDP-C02.sh.dto'
+    - 'AutotestRDP-C03.sh.dto'
+    - 'AutotestRDP-C04.sh.dto'
+  rdp server2016:
+    - 'AutoTestRDP2016.sh.dto'
